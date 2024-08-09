@@ -1,0 +1,104 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.main{
+    background-image: url(backgroundimg.jpg);
+    height: 100vh;
+    position:relative;
+    background-position: center center;
+    background-repeat: no-repeat;
+    
+    
+}
+body{
+    font-size: 100%;
+}
+.main .box{
+    height:100vh;
+    width: 100%;
+    opacity: 0.44;
+    position: absolute;
+    top:0;
+    
+    background-color: black;
+}
+.nav img{
+    height: 6vh;
+    
+    
+
+
+}
+.nav{
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    /* border: 10px solid red; */
+    padding: 2vh;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    
+}
+#bt2{
+    background-color: red;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    font-size:smaller;
+    min-width: 5vw;
+    min-height: 3vh;
+}
+.body h1{
+    color: white;
+    
+}
+.body{
+    position: relative;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    flex-direction: column;
+    color:white;
+    
+}
+.sp1{
+    font-size: 4rem;
+}
+.sp{
+    font-size: 2rem;
+
+}
+#ip1{
+    font-size: smaller;
+    min-width: 18vw;
+    min-height:4vh ;
+    background-color:  #00000080;;
+    
+    font-weight: bold;
+    color: black;
+    border: 2px solid black;
+
+
+}
+#btn3{
+    background-color: red;
+    color: white;
+    text-align: center;
+    border-radius: 9px;
+    font-size:small;
+    min-width: 18vw;
+    min-height: 5vh;
+    font-weight: bold;
+
+
+}
+.email{
+    margin-top: 3vh;
+}
+
